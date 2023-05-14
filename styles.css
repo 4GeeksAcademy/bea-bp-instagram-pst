@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left-icons {
+    display: flex;
+}
+
+.right-icons {
+    justify-content: flex-end;
+}
+
+.post-imagen img  {
+    max-width: 100%;
+}
+
+.iconos {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.the-text {
+margin: 15px;
+}
